@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pila Systems — Technology • Innovation • Digital Systems</title>
+  <meta name="description" content="Pila Systems is a modern digital portfolio showcasing technology, innovation, and digital systems by a thoughtful young technologist.">
+  <meta name="theme-color" content="#0B0F14">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231F4F56'/><text y='.9em' x='50%25' text-anchor='middle' font-size='60' font-family='serif' fill='white'>P</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============================== NAVIGATION ============================== -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" aria-label="Pila Systems home">
+        <div class="nav__logo-icon">P</div>
+        Pila Systems
+      </a>
+
+      <div class="nav__links" id="navLinks" role="menubar">
+        <a href="#about" class="nav__link" role="menuitem">About</a>
+        <a href="#skills" class="nav__link" role="menuitem">Skills</a>
+        <a href="#projects" class="nav__link" role="menuitem">Projects</a>
+        <a href="#certificates" class="nav__link" role="menuitem">Certificates</a>
+        <a href="#technologies" class="nav__link" role="menuitem">Technologies</a>
+        <a href="#goals" class="nav__link" role="menuitem">Goals</a>
+        <a href="#contact" class="nav__cta" role="menuitem">Get in Touch</a>
+      </div>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- ============================== HERO ============================== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+    </div>
+
+    <div class="hero__shapes">
+      <div class="hero__shape hero__shape--circle-1"></div>
+      <div class="hero__shape hero__shape--circle-2"></div>
+      <div class="hero__shape hero__shape--rect-1"></div>
+      <div class="hero__shape hero__shape--rect-2"></div>
+      <div class="hero__shape hero__shape--line"></div>
+      <div class="hero__shape hero__shape--dot"></div>
+      <div class="hero__shape hero__shape--dot-2"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="hero__handwritten">" learning. building. evolving. "</p>
+      <h1 class="hero__title">
+        <span class="hero__title-accent">Pila Systems</span>
+      </h1>
+      <p class="hero__subtitle">Technology <span>•</span> Innovation <span>•</span> Digital Systems</p>
+      <p class="hero__desc">A student exploring technology, automation, and the endless possibilities of the digital world.</p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          Explore My Work
+        </a>
+        <a href="#about" class="btn btn--outline">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          About Me
+        </a>
+      </div>
+      <p class="hero__built-with handwritten" style="margin-top: 24px; font-size: 1rem;">built with curiosity.</p>
+    </div>
+
+    <div class="hero__scroll-hint">
+      <span>scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+
+  <!-- ============================== ABOUT ============================== -->
+  <section class="section section--alt" id="about">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          About Me
+        </span>
+        <h2 class="section__title">Building. Learning. Growing.</h2>
+        <p class="section__subtitle">A curious learner with a strong interest in technology, finance, and automation.</p>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__image-wrap reveal reveal--delay-1">
+          <div class="about__image">
+            <div class="about__image-placeholder">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <span>Your photo here</span>
+            </div>
+          </div>
+          <div class="about__image-accent"></div>
+        </div>
+
+        <div class="about__content reveal reveal--delay-2">
+          <h3 class="about__name">Pila</h3>
+          <p class="about__role">Web Developer · Trader & Analyst · Automation Builder</p>
+
+          <div class="about__bio">
+            <p>I'm a curious learner with a strong interest in technology, finance, and automation. I enjoy building projects, solving problems, and turning ideas into reality.</p>
+            <p>From writing code to analyzing markets, I'm always learning something new and applying it to real-world problems. Building digital systems that solve real problems and create impact.</p>
+          </div>
+
+          <p class="about__handwritten-note">"Discipline beats talent. Always learning."</p>
+
+          <!-- Info cards -->
+          <div class="about__info-cards">
+            <div class="about__info-card glass-card">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <div><span class="about__info-label">Name</span><span class="about__info-value">Pila</span></div>
+            </div>
+            <div class="about__info-card glass-card">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div><span class="about__info-label">Location</span><span class="about__info-value">Nigeria</span></div>
+            </div>
+            <div class="about__info-card glass-card">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <div><span class="about__info-label">Focus</span><span class="about__info-value">Technology & Finance</span></div>
+            </div>
+            <div class="about__info-card glass-card">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+              <div><span class="about__info-label">Email</span><span class="about__info-value">hello@pilasystems.com</span></div>
+            </div>
+          </div>
+
+          <div class="about__stats">
+            <div class="about__stat glass-card">
+              <div class="about__stat-value">10+</div>
+              <div class="about__stat-label">Projects Completed</div>
+            </div>
+            <div class="about__stat glass-card">
+              <div class="about__stat-value">5+</div>
+              <div class="about__stat-label">Technologies Mastered</div>
+            </div>
+            <div class="about__stat glass-card">
+              <div class="about__stat-value">3+</div>
+              <div class="about__stat-label">Trading Bots Built</div>
+            </div>
+            <div class="about__stat glass-card">
+              <div class="about__stat-value">1000+</div>
+              <div class="about__stat-label">Hours Learning</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================== SKILLS ============================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+          Skills
+        </span>
+        <h2 class="section__title">What I Work With</h2>
+        <p class="section__subtitle">A curated set of technologies and domains I've invested deeply in.</p>
+      </div>
+
+      <div class="skills__grid">
+
+        <!-- Web Development -->
+        <div class="glass-card skill-card reveal">
+          <div class="skill-card__header">
+            <div class="skill-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <div>
+              <div class="skill-card__title">Web Development</div>
+              <div class="skill-card__subtitle">Frontend & Backend</div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">React / Next.js</span><span class="skill-bar__value">92%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="92"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Node.js / Express</span><span class="skill-bar__value">88%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="88"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">TypeScript</span><span class="skill-bar__value">85%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">CSS / Design Systems</span><span class="skill-bar__value">90%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="90"></div></div>
+          </div>
+        </div>
+
+        <!-- Automation -->
+        <div class="glass-card skill-card reveal reveal--delay-1">
+          <div class="skill-card__header">
+            <div class="skill-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4"/><path d="m6.34 6.34 2.83 2.83"/><path d="M2 12h4"/><path d="m6.34 17.66 2.83-2.83"/><path d="M12 18v4"/><path d="m14.83 14.83 2.83 2.83"/><path d="M18 12h4"/><path d="m14.83 9.17 2.83-2.83"/></svg>
+            </div>
+            <div>
+              <div class="skill-card__title">Automation</div>
+              <div class="skill-card__subtitle">Workflows & Bots</div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Python Scripting</span><span class="skill-bar__value">90%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Selenium / Playwright</span><span class="skill-bar__value">82%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="82"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">API Integration</span><span class="skill-bar__value">88%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="88"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Task Scheduling</span><span class="skill-bar__value">78%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="78"></div></div>
+          </div>
+        </div>
+
+        <!-- Trading Systems -->
+        <div class="glass-card skill-card reveal reveal--delay-2">
+          <div class="skill-card__header">
+            <div class="skill-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            </div>
+            <div>
+              <div class="skill-card__title">Trading Systems</div>
+              <div class="skill-card__subtitle">Quantitative & Algorithmic</div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Algorithmic Trading</span><span class="skill-bar__value">80%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Market Analysis</span><span class="skill-bar__value">85%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Risk Management</span><span class="skill-bar__value">75%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="75"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Backtesting</span><span class="skill-bar__value">82%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="82"></div></div>
+          </div>
+        </div>
+
+        <!-- Machine Learning -->
+        <div class="glass-card skill-card reveal">
+          <div class="skill-card__header">
+            <div class="skill-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.57-3.25 3.92a1 1 0 0 0-.75.97V14"/><path d="M12 14a4 4 0 0 1 0 8 4 4 0 0 1 0-8z"/><path d="M8.5 8.5 6 11"/><path d="M15.5 8.5 18 11"/></svg>
+            </div>
+            <div>
+              <div class="skill-card__title">Machine Learning</div>
+              <div class="skill-card__subtitle">AI & Data Science</div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">TensorFlow / PyTorch</span><span class="skill-bar__value">78%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="78"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Data Analysis</span><span class="skill-bar__value">85%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">NLP / LLMs</span><span class="skill-bar__value">72%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="72"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Computer Vision</span><span class="skill-bar__value">68%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="68"></div></div>
+          </div>
+        </div>
+
+        <!-- Web3 -->
+        <div class="glass-card skill-card reveal reveal--delay-1">
+          <div class="skill-card__header">
+            <div class="skill-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <div>
+              <div class="skill-card__title">Web3</div>
+              <div class="skill-card__subtitle">Blockchain & dApps</div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Solidity</span><span class="skill-bar__value">75%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="75"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Smart Contracts</span><span class="skill-bar__value">78%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="78"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">DeFi Protocols</span><span class="skill-bar__value">70%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="70"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Ethers.js / Web3.js</span><span class="skill-bar__value">80%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="80"></div></div>
+          </div>
+        </div>
+
+        <!-- Digital Marketing -->
+        <div class="glass-card skill-card reveal reveal--delay-2">
+          <div class="skill-card__header">
+            <div class="skill-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            </div>
+            <div>
+              <div class="skill-card__title">Digital Marketing</div>
+              <div class="skill-card__subtitle">Growth & Strategy</div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">SEO / SEM</span><span class="skill-bar__value">82%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="82"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Social Media Strategy</span><span class="skill-bar__value">85%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Analytics & Tracking</span><span class="skill-bar__value">80%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar__header"><span class="skill-bar__name">Content Marketing</span><span class="skill-bar__value">76%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="76"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================== PROJECTS ============================== -->
+  <section class="section section--alt" id="projects">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+          Projects
+        </span>
+        <h2 class="section__title">Selected Work</h2>
+        <p class="section__subtitle">A curated collection of projects that showcase my approach to building digital systems.</p>
+      </div>
+
+      <div class="projects__grid">
+
+        <div class="glass-card project-card reveal">
+          <div class="project-card__preview">
+            <svg class="project-card__preview-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">Trading Systems</span>
+            <h3 class="project-card__title">Quantitative Trading Engine</h3>
+            <p class="project-card__desc">An algorithmic trading platform with real-time market analysis, backtesting capabilities, and automated execution strategies.</p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Python</span>
+              <span class="project-card__tag">TensorFlow</span>
+              <span class="project-card__tag">REST API</span>
+              <span class="project-card__tag">WebSocket</span>
+            </div>
+            <div class="project-card__links">
+              <a href="#" class="project-card__link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="project-card__link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card project-card reveal reveal--delay-1">
+          <div class="project-card__preview">
+            <svg class="project-card__preview-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">Web Development</span>
+            <h3 class="project-card__title">Digital Studio Platform</h3>
+            <p class="project-card__desc">A collaborative creative workspace with real-time editing, project management, and integrated client communication tools.</p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Next.js</span>
+              <span class="project-card__tag">TypeScript</span>
+              <span class="project-card__tag">PostgreSQL</span>
+              <span class="project-card__tag">Prisma</span>
+            </div>
+            <div class="project-card__links">
+              <a href="#" class="project-card__link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="project-card__link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card project-card reveal reveal--delay-2">
+          <div class="project-card__preview">
+            <svg class="project-card__preview-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.57-3.25 3.92a1 1 0 0 0-.75.97V14"/><path d="M12 14a4 4 0 0 1 0 8 4 4 0 0 1 0-8z"/></svg>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">Machine Learning</span>
+            <h3 class="project-card__title">Neural Sentiment Analyzer</h3>
+            <p class="project-card__desc">An NLP-powered sentiment analysis system that processes social media data to extract market insights and trend predictions.</p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Python</span>
+              <span class="project-card__tag">PyTorch</span>
+              <span class="project-card__tag">Transformers</span>
+              <span class="project-card__tag">FastAPI</span>
+            </div>
+            <div class="project-card__links">
+              <a href="#" class="project-card__link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="project-card__link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card project-card reveal">
+          <div class="project-card__preview">
+            <svg class="project-card__preview-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">Web3</span>
+            <h3 class="project-card__title">DeFi Portfolio Tracker</h3>
+            <p class="project-card__desc">A decentralized finance dashboard that aggregates wallet positions, yield farming data, and real-time protocol analytics across chains.</p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">React</span>
+              <span class="project-card__tag">Solidity</span>
+              <span class="project-card__tag">Ethers.js</span>
+              <span class="project-card__tag">The Graph</span>
+            </div>
+            <div class="project-card__links">
+              <a href="#" class="project-card__link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="project-card__link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card project-card reveal reveal--delay-1">
+          <div class="project-card__preview">
+            <svg class="project-card__preview-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">Automation</span>
+            <h3 class="project-card__title">Workflow Orchestrator</h3>
+            <p class="project-card__desc">An intelligent task automation system that coordinates multi-step workflows, handles error recovery, and provides observability dashboards.</p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">Python</span>
+              <span class="project-card__tag">Docker</span>
+              <span class="project-card__tag">Redis</span>
+              <span class="project-card__tag">Celery</span>
+            </div>
+            <div class="project-card__links">
+              <a href="#" class="project-card__link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="project-card__link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card project-card reveal reveal--delay-2">
+          <div class="project-card__preview">
+            <svg class="project-card__preview-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+          </div>
+          <div class="project-card__body">
+            <span class="project-card__category">Digital Marketing</span>
+            <h3 class="project-card__title">Growth Analytics Suite</h3>
+            <p class="project-card__desc">A comprehensive marketing analytics platform with campaign tracking, conversion funnels, and AI-driven content optimization suggestions.</p>
+            <div class="project-card__tags">
+              <span class="project-card__tag">React</span>
+              <span class="project-card__tag">D3.js</span>
+              <span class="project-card__tag">Node.js</span>
+              <span class="project-card__tag">MongoDB</span>
+            </div>
+            <div class="project-card__links">
+              <a href="#" class="project-card__link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+              <a href="#" class="project-card__link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================== CERTIFICATE VAULT ============================== -->
+  <section class="section" id="certificates">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          Certificate Vault
+        </span>
+        <h2 class="section__title">Credentials & Certifications</h2>
+        <p class="section__subtitle">A curated vault of professional certifications and achievements.</p>
+      </div>
+
+      <!-- Upload area -->
+      <div class="certs__upload-area reveal" id="certUploadArea">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        <p class="certs__upload-text">Drop certificates here, or click to upload</p>
+        <p class="certs__upload-hint">Supports PDF and image files (PNG, JPG, WebP)</p>
+        <input type="file" id="certFileInput" accept=".pdf,.png,.jpg,.jpeg,.webp" multiple hidden>
+      </div>
+
+      <!-- Controls -->
+      <div class="certs__controls reveal">
+        <div class="certs__search">
+          <svg class="certs__search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" class="certs__search-input" id="certSearch" placeholder="Search certificates...">
+        </div>
+        <div class="certs__filters" id="certFilters">
+          <button class="certs__filter-btn certs__filter-btn--active" data-filter="all">All</button>
+          <button class="certs__filter-btn" data-filter="development">Development</button>
+          <button class="certs__filter-btn" data-filter="cloud">Cloud</button>
+          <button class="certs__filter-btn" data-filter="security">Security</button>
+          <button class="certs__filter-btn" data-filter="data">Data</button>
+          <button class="certs__filter-btn" data-filter="other">Other</button>
+        </div>
+      </div>
+
+      <!-- Certificate grid -->
+      <div class="certs__grid" id="certsGrid">
+        <!-- Sample certificates (populated by JS) -->
+      </div>
+
+      <div class="certs__empty" id="certsEmpty" style="display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+        <p>No certificates found. Upload your first certificate above.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================== TECHNOLOGIES ============================== -->
+  <section class="section section--alt" id="technologies">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4"/><path d="m6.34 6.34 2.83 2.83"/><path d="M2 12h4"/><path d="m6.34 17.66 2.83-2.83"/><path d="M12 18v4"/><path d="m14.83 14.83 2.83 2.83"/><path d="M18 12h4"/><path d="m14.83 9.17 2.83-2.83"/></svg>
+          Technologies
+        </span>
+        <h2 class="section__title">Tools of the Trade</h2>
+        <p class="section__subtitle">The technologies, frameworks, and tools I use to bring ideas to life.</p>
+      </div>
+
+      <div class="tech__grid reveal">
+        <div class="tech-item"><div class="tech-item__icon">⚛️</div><span class="tech-item__name">React</span></div>
+        <div class="tech-item"><div class="tech-item__icon">▲</div><span class="tech-item__name">Next.js</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🟦</div><span class="tech-item__name">TypeScript</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🟢</div><span class="tech-item__name">Node.js</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🐍</div><span class="tech-item__name">Python</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🔥</div><span class="tech-item__name">PyTorch</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🧠</div><span class="tech-item__name">TensorFlow</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🐳</div><span class="tech-item__name">Docker</span></div>
+        <div class="tech-item"><div class="tech-item__icon">☁️</div><span class="tech-item__name">AWS</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🔷</div><span class="tech-item__name">Solidity</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🗄️</div><span class="tech-item__name">PostgreSQL</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🍃</div><span class="tech-item__name">MongoDB</span></div>
+        <div class="tech-item"><div class="tech-item__icon">📊</div><span class="tech-item__name">D3.js</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🔴</div><span class="tech-item__name">Redis</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🔗</div><span class="tech-item__name">GraphQL</span></div>
+        <div class="tech-item"><div class="tech-item__icon">⚡</div><span class="tech-item__name">Vite</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🌿</div><span class="tech-item__name">Git</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🎨</div><span class="tech-item__name">Figma</span></div>
+        <div class="tech-item"><div class="tech-item__icon">📱</div><span class="tech-item__name">React Native</span></div>
+        <div class="tech-item"><div class="tech-item__icon">🔄</div><span class="tech-item__name">CI/CD</span></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================== FUTURE GOALS ============================== -->
+  <section class="section" id="goals">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Future Goals
+        </span>
+        <h2 class="section__title">Where I'm Heading</h2>
+        <p class="section__subtitle">The vision and milestones I'm working towards in my technology journey.</p>
+      </div>
+
+      <div class="container--narrow">
+        <div class="goals__timeline reveal">
+
+          <div class="goal-item">
+            <div class="goal-item__dot"></div>
+            <span class="goal-item__year">2026</span>
+            <h3 class="goal-item__title">Deeper into AI & LLMs</h3>
+            <p class="goal-item__desc">Building production-grade AI systems with focus on fine-tuning large language models and creating intelligent automation agents that solve real-world problems.</p>
+          </div>
+
+          <div class="goal-item">
+            <div class="goal-item__dot"></div>
+            <span class="goal-item__year">2026–2027</span>
+            <h3 class="goal-item__title">Launch a SaaS Product</h3>
+            <p class="goal-item__desc">Designing, building, and shipping a profitable software-as-a-service product from zero to market — combining technical skills with business strategy.</p>
+          </div>
+
+          <div class="goal-item">
+            <div class="goal-item__dot"></div>
+            <span class="goal-item__year">2027</span>
+            <h3 class="goal-item__title">Open Source Contributions</h3>
+            <p class="goal-item__desc">Contributing meaningful code to major open-source projects and building tools that help developers worldwide become more productive.</p>
+          </div>
+
+          <div class="goal-item">
+            <div class="goal-item__dot"></div>
+            <span class="goal-item__year">2028+</span>
+            <h3 class="goal-item__title">Build a Technology Studio</h3>
+            <p class="goal-item__desc">Establishing a boutique technology studio that helps businesses transform through thoughtful engineering, elegant design, and strategic innovation.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================== CONTACT ============================== -->
+  <section class="section section--alt" id="contact">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__label">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+          Contact
+        </span>
+        <h2 class="section__title">Let's Connect</h2>
+        <p class="section__subtitle">Have a project in mind, or just want to say hello? I'd love to hear from you.</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <p class="contact__handwritten">"Great things happen when great people connect."</p>
+          <p>Whether you're looking for a collaborator, have a project idea, or just want to chat about technology — my inbox is always open.</p>
+
+          <div class="contact__channels">
+            <div class="contact__channel">
+              <div class="contact__channel-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+              </div>
+              <div>
+                <span class="contact__channel-label">Email</span>
+                <div class="contact__channel-value">hello@pilasystems.dev</div>
+              </div>
+            </div>
+            <div class="contact__channel">
+              <div class="contact__channel-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </div>
+              <div>
+                <span class="contact__channel-label">GitHub</span>
+                <div class="contact__channel-value">github.com/pilasystems</div>
+              </div>
+            </div>
+            <div class="contact__channel">
+              <div class="contact__channel-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div>
+                <span class="contact__channel-label">LinkedIn</span>
+                <div class="contact__channel-value">linkedin.com/in/pilasystems</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card contact__form reveal reveal--delay-1" id="contactFormCard">
+          <form id="contactForm">
+            <div class="form__row">
+              <div class="form__group">
+                <label class="form__label" for="contactName">Name</label>
+                <input type="text" class="form__input" id="contactName" placeholder="Your name" required>
+              </div>
+              <div class="form__group">
+                <label class="form__label" for="contactEmail">Email</label>
+                <input type="email" class="form__input" id="contactEmail" placeholder="you@example.com" required>
+              </div>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="contactSubject">Subject</label>
+              <input type="text" class="form__input" id="contactSubject" placeholder="What's this about?">
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="contactMessage">Message</label>
+              <textarea class="form__textarea" id="contactMessage" placeholder="Tell me about your project or idea..." required></textarea>
+            </div>
+            <button type="submit" class="form__submit" id="contactSubmit">
+              Send Message
+            </button>
+          </form>
+          <div class="form__success" id="formSuccess">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <h3>Message Sent!</h3>
+            <p style="margin-top: 8px;">Thank you for reaching out. I'll get back to you soon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================== FOOTER ============================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">Pila Systems</span>
+          <span class="footer__tagline">built with curiosity.</span>
+        </div>
+
+        <div class="footer__links">
+          <a href="#about" class="footer__link">About</a>
+          <a href="#projects" class="footer__link">Projects</a>
+          <a href="#contact" class="footer__link">Contact</a>
+        </div>
+
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Twitter / X">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 Pila Systems. Crafted with intention.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Certificate Preview Modal -->
+  <div class="modal-overlay" id="certModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="modal-title" id="modalTitle">Certificate Preview</span>
+        <button class="modal-close" id="modalClose" aria-label="Close modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
